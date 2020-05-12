@@ -33,5 +33,6 @@ Ensure accessibility and source code legibility. UX funtional and update links t
 The following links were used as reference as research.
 
 https://developer.mozilla.org/en-US/docs/Web/HTML
+https://www.w3.org/standards/webdesign/accessibility
 
 
