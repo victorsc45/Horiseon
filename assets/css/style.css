@@ -1,4 +1,5 @@
-/* css boxsizing, styling and positioning for Horiseon */
+/* css boxsizing, styling and positioning for Horiseon Home Page*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,24 +9,26 @@
 body {
     background-color: #d9dcd6;
 }
-/* header for navigations */
-.header {
+/* header style and position */
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* Horiseon logo color changes within the brand name */
 
-.header h1 #seo {
+#seo {
     color: #a4a2c5;
 }
+/* navigation style and position */
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +36,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+ul {
     list-style-type: none;
 }
 
-.header div ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,6 +58,7 @@ p {
 }
 
 /* site banner styling  */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -76,15 +80,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* content consolidation of css with DOM elements */
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* content consolidation of css class and DOM elements */
-
-.page-content {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,43 +97,45 @@ p {
     color: #ffffff;
 }
 
-.page-content img {
+img {
     max-height: 200px;
 }
 
-.page-content h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* right sidebar styling and positioning */
-.benefits {
-    margin-right: 20px;
-    padding: 16px;
-    clear: both;
+
+aside {
     float: right;
     width: 21%;
     height: 100%;
+    margin-right: 20px;
+    clear: both;
+    padding: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-sidebar {
-    margin-bottom: 32px;
+article {
+    margin-bottom: 25px;
     color: #ffffff;
 }
 
-.benefit-sidebar h3 {
+article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 140px;
+}
+
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-sidebar img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* footer style and position */
 
 .footer {
     padding: 30px;
