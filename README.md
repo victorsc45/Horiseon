@@ -1,5 +1,6 @@
 # Horiseon
 Social Solution Services, Inc. website
+# Description
 
 Take code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
 
@@ -9,7 +10,7 @@ Improve codebase for long term sustainability. Ensure that all links are functio
 Marketing Agency
 Updating website to conform to codebase standards for accessibility and site is optimized for search engines.
 
-## Acceptance Criteria
+## Spec Criteria
 
 '''
 GIVEN a webpage meets accessibility standards
@@ -24,15 +25,27 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 '''
-## Review
+# Instulation
+N/A at this time simple follow the url and the links in the page
+
+
+# Review
 
 Ensure accessibility and source code legibility. UX funtional and update links to operational status.
 
-# References for update 
+# Credits
 
 The following links were used as reference as research.
-
+'''
 https://developer.mozilla.org/en-US/docs/Web/HTML
+'''
 https://www.w3.org/standards/webdesign/accessibility
+'''
+# License
+ Open to the public website for Horiseon Home Page
+
+# Tests
+
+test links on the web navigation
 
 
