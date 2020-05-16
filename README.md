@@ -43,9 +43,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 https://www.w3.org/standards/webdesign/accessibility
 
 '''
-https://catswhocode.com/how-to-make-a-responsive-website/
-
-'''
 # License
  Open to the public website for Horiseon Home Page
 
